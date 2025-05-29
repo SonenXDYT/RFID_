@@ -1,0 +1,5 @@
+[2025-05-28 19:39:30] UID: 4302ca11 | Nombre: No registrado | Estado: DENEGADO | Mensaje: DENEGADO
+[2025-05-28 19:40:20] UID: e36f530e | Nombre: No registrado | Estado: DENEGADO | Mensaje: DENEGADO
+[2025-05-28 19:40:52] UID: 4302ca11 | Nombre: Alexander | Estado: PERMITIDO | Mensaje: PERMITIDO
+[2025-05-28 19:43:02] UID: e36f530e | Nombre: Temporal | Estado: PERMITIDO | Mensaje: PERMITIDO
+[2025-05-28 19:43:11] UID: e36f530e | Nombre: Temporal | Estado: DENEGADO | Mensaje: DENEGADO

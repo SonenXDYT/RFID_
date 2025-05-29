@@ -1,0 +1,41 @@
+{
+    "smtp_settings": {
+        "server": "smtp.gmail.com",
+        "port": 587,
+        "use_tls": true,
+        "use_ssl": false,
+        "timeout": 30
+    },
+    "sender_info": {
+        "email": "alexandermenasabalete@gmail.com",
+        "password": "wqnniujxdetegcoc",
+        "display_name": "Sistema de Control de Acceso"
+    },
+    "default_recipients": [
+        {
+            "name": "Reportes",
+            "email": "alexandermenasabalete@gmail.com",
+            "enabled": false
+        }
+    ],
+    "email_templates": {
+        "subject_template": "{report_type} - {date}",
+        "body_template": "Estimado/a,\n\nAdjunto encontrará el {report_type} solicitado con {record_count} registros.\n\nFecha de generación: {generation_date}\nPeríodo del reporte: {report_period}\n\nResumen:\n- Total de registros: {record_count}\n- Accesos permitidos: {allowed_count}\n- Accesos denegados: {denied_count}\n\nSaludos cordiales,\n{sender_name}",
+        "attachment_name_template": "reporte_accesos_{date}.csv"
+    },
+    "report_settings": {
+        "auto_send_daily": false,
+        "auto_send_weekly": false,
+        "auto_send_monthly": false,
+        "daily_time": "08:00",
+        "weekly_day": "monday",
+        "monthly_day": 1,
+        "include_summary": true,
+        "max_records_per_email": 10000
+    },
+    "security": {
+        "encrypt_password": true,
+        "require_confirmation": true,
+        "log_email_activity": true
+    }
+}
