@@ -215,7 +215,7 @@ class BuscadorTab:
 
         # Lista de correos predefinidos (esto podría venir de configuración)
         correos_predefinidos = [
-            "alexandermenasabalete@gmail.com",
+            "abc@gmail.com",
         ]
 
         correo_vars = {}
